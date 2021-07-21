@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#C0E8D8"
+    >
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/transfermoney"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Welcome Users, "
+        android:textColor="#000000"
+        android:textSize="25dp"
+        app:fontFamily="@font/ubuntu" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="120dp"
+        android:text="This is the digital way to ease the transaction between our customers."
+        android:textColor="#000000"
+        android:textSize="25dp"
+        app:fontFamily="@font/ubuntu" />
+
+    <Button
+
+        android:id="@+id/view_users"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_button"
+        android:paddingVertical="5dp"
+        android:paddingHorizontal="15dp"
+        android:text="Show Users"
+        android:textAllCaps="false"
+        android:layout_marginTop="600dp"
+        android:textColor="#F6F3F0"
+        android:textSize="15dp"
+        android:textStyle="bold"></Button>
+
+</RelativeLayout>
